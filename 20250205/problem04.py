@@ -21,7 +21,7 @@ def analyze_items(items_list):
         new_lst.append(el)  # 중복 없는 새 list를 만들어 줌.
     
     for el in new_lst:
-        if type(el) == int:  # 숫자만 판별별
+        if type(el) == int:  # 숫자만 판별
             if el > 0:
                 positive_sum += el
             else:
